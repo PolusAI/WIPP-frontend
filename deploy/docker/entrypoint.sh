@@ -27,6 +27,6 @@ sed -i \
   -e 's|CATALOGUI_URL|'"${CATALOGUI_URL}"'|' \
   -e 's|ARGOUIBASE_URL|'"${ARGOUIBASE_URL}"'|' \
   -e 's|KEYCLOAK_URL|'"${KEYCLOAK_URL}"'|' \
-  /var/www/frontend-app/assets/config/config.json
+  /var/www/frontend/assets/config/config.json
 
 nginx -g 'daemon off;'
